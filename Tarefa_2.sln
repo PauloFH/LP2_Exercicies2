@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal_Abstract", "Animal_A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Circle_and_Cylinder_Classes", "The_Circle_and_Cylinder_Classes\The_Circle_and_Cylinder_Classes.csproj", "{6CF5484C-DEE6-4D76-BA56-9E8A07708F57}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Superclass_Animal", "Abstract_Superclass_Animal\Abstract_Superclass_Animal.csproj", "{CE78EA83-BE39-4B8F-AE88-597398EE29A1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6CF5484C-DEE6-4D76-BA56-9E8A07708F57}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CF5484C-DEE6-4D76-BA56-9E8A07708F57}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CF5484C-DEE6-4D76-BA56-9E8A07708F57}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
