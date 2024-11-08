@@ -149,7 +149,7 @@ Wooooooooow
 
 ```
 cd ..
-cd Animal_Abstract
+cd Abstract_Superclass_Animal
 dotnet run
 ```
 Classe teste:
