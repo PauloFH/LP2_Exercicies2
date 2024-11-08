@@ -1,5 +1,5 @@
 # EXERCICIOS LINGUAGEM DE PROGRAMAÇÃO II
-
+****
 Nesta tarefa foram resolvidos os exercícios:
 - 4.1 - Implementar as classes Circle e Cylinder usando Herança (lembrar que nós implementados em aula a classe círculo no exercício 1.1, disponível no repositório da disciplina).
 
@@ -68,6 +68,7 @@ A solução contém três projetos:
 - **The_CCC_Using_Composition**
 - **Animal_Abstract**
 - **Abstract_Superclass_Animal**
+- **HCA**
 
 Antes de executar a solução, você precisa restaurar as dependências:
 
@@ -195,7 +196,8 @@ Woooooooooof!
 Woooooowwwww!
 Woooooowwwww!
 ```
-Diagrama:
+### Diagrama:
+
 ![Animal.png](Abstract_Superclass_Animal/Animal.png)
 
 
@@ -203,5 +205,70 @@ Diagrama:
 ### Perguntas adicionais que podem cair na prova:
 
 1. Qual a diferença entre polimorfismo em tempo de execução e polimorfismo em tempo de compilação? Por que um é chamado de estático e o outro de dinâmico? Dê exemplos de cada tipo (diferentes dos que usamos em aula).
+   - **Resposta:** 
+   O polimorfismo em tempo de de execução é quando durante a execução do programa ocorre a decisão de qual método será executado e ocorre em metódos sobrescritos marcados como override, e virtual, uma vez que o runtime saberá que aquele método é sobrescrito.
+     
+   Nesse exemplo a classe curso é abstrata e tem o método IniciarCurso() que são métodos sobrescritos dependendo da classe filha e será decidido em tempo de execução qual método será executado apartir da assinatura da classe.
 
+         public abstract class Curso {
+             public string Nome { get; set; }
+             public int DuracaoHoras { get; set; }
+             public abstract void IniciarCurso();
+         }
+         public class CursoPresencial : Curso {
+             public string Local { get; set; }
+             public override void IniciarCurso() {
+                 Console.WriteLine($"Iniciando o curso presencial {Nome} no local {Local}.");
+             }
+         }
+         public class CursoOnline : Curso {
+             public string Plataforma { get; set; }
+             public override void IniciarCurso() {
+                 Console.WriteLine($"Iniciando o curso online {Nome} na plataforma {Plataforma}.");
+             }
+         }
+   Já o polimorfismo em tempo de compilação é quando os métodos ganham uma assinatura diferente no compilador.
+      Nesse exemplo a sobrecarga, na qual dois métodos com os mesmo nome, mas que recebe tipos de dado de entrada diferente, são considerados dois métodos diferentes para o compilador.
+      ``` 
+      public class Estudante {
+      public string Nome { get; set; }
+       public void Matricular(CursoPresencial curso){
+           Console.WriteLine($"{Nome} matriculado no curso {CursoPresencial.Nome}.");
+       }
+       public void Matricular(CursoOnline curso) {
+           Console.WriteLine($"{Nome} matriculado no curso {CursoOnline.Nome}.");
+           curso.IniciarCurso();
+       }
+      }
+      ```
 2. Explique com suas palavras a diferença entre herança, composição e agregação. Crie um exemplo de cada em Java e inclua numa pasta separada assim como fez com os exercícios da lista.
+   - **Resposta:** 
+     - Heraça é quando uma classe herda as propiedades e comportamentos da classe base, e podendo adicionar novos, usado para uma especialização da classe base.
+     - Composição é quando uma classe contem uma outra classe como propiedade. Ou seja, o objeto contido depende do objeto que contem ele. deve ser usado quando o objeto tem que garantir a existencia dele para funcionamento.
+     - Agregação é quando um objeto contem outro, mas não há uma dependêncis direta. Ou seja, os objetos agregados podem existir sem serem do objeto que agrega.
+      
+   Exemplos:
+   
+   ```
+   cd ..
+   cd HCA
+   dotnet run
+   ```
+      
+   Resultado:
+      
+   ```
+   Herança:
+   Employee[position=worker, name=gustas, encrypted password=-1408148375]
+   login success
+   
+   Composição:
+   Notebook[Brand=Dell, Processor=Intel i7]
+   
+   Agregação:
+   Employees in TI Department:
+   Employee[position=Dev front, name=Alice, encrypted password=-1389727064]
+   Employee[position=Dev Back, name=Bob, encrypted password=-1184917314]
+   ```
+      
+   ****

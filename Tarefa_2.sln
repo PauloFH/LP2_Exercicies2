@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Circle_and_Cylinder_Cla
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Abstract_Superclass_Animal", "Abstract_Superclass_Animal\Abstract_Superclass_Animal.csproj", "{CE78EA83-BE39-4B8F-AE88-597398EE29A1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HCA", "HCA\HCA.csproj", "{A24FAC7C-4F95-46D2-BB41-F833B411250C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE78EA83-BE39-4B8F-AE88-597398EE29A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A24FAC7C-4F95-46D2-BB41-F833B411250C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A24FAC7C-4F95-46D2-BB41-F833B411250C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A24FAC7C-4F95-46D2-BB41-F833B411250C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A24FAC7C-4F95-46D2-BB41-F833B411250C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
