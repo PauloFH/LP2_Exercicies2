@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_Circle_and_Cylinder_Classes", "The_Circle_and_Cylinder_Classes.csproj", "{DBBC68B0-3286-4A6F-A301-E7675F7E525E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "The_CCC_Using_Composition", "The_CCC_Using_Composition\The_CCC_Using_Composition.csproj", "{C1CA8216-2A34-4B84-AB3B-8154FBBED4CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animal_Abstract", "Animal_Abstract\Animal_Abstract.csproj", "{76ACF2A1-FA34-4909-A4F1-F1A4EC8D23DC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DBBC68B0-3286-4A6F-A301-E7675F7E525E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBBC68B0-3286-4A6F-A301-E7675F7E525E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBBC68B0-3286-4A6F-A301-E7675F7E525E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBBC68B0-3286-4A6F-A301-E7675F7E525E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1CA8216-2A34-4B84-AB3B-8154FBBED4CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1CA8216-2A34-4B84-AB3B-8154FBBED4CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1CA8216-2A34-4B84-AB3B-8154FBBED4CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1CA8216-2A34-4B84-AB3B-8154FBBED4CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76ACF2A1-FA34-4909-A4F1-F1A4EC8D23DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76ACF2A1-FA34-4909-A4F1-F1A4EC8D23DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76ACF2A1-FA34-4909-A4F1-F1A4EC8D23DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76ACF2A1-FA34-4909-A4F1-F1A4EC8D23DC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
